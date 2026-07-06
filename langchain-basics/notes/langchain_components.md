@@ -49,10 +49,13 @@ LangChain provides a modular framework for building AI-powered applications like
 ## Explaination of each component
 
 LangChain primarily provides two types of models:
+
 Language models in LangChain come in two flavors:
 
 ![Image](./images/langchain_components_image1.png)
+
 1️⃣ LLMs (Large Language Models)
+
 The APIs they wrap take a string prompt as input and output a string completion. OpenAI's GPT-3 is implemented as an LLM.Additionally, not all models are the same. Different models have different prompting strategies that work best for them. For example, Anthropic's models work best with XML while OpenAI's work best with JSON. You should keep this in mind when designing your apps.
 - Used for single-turn text generation (not conversational).
 - Typically takes a single text input and returns a text output.
