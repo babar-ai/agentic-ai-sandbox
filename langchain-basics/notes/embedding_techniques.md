@@ -1,4 +1,4 @@
-What are Embeddings (simple intuition)
+u[What are Embeddings (simple intuition)
 An embedding converts raw data (text / image / audio / code) into a vector of numbers that represents meaning.
 Example:
 

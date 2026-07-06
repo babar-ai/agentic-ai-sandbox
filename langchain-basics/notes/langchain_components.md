@@ -1,37 +1,48 @@
 ### Langchain components:🚀
 
 Here are the key components of LangChain:
+
 1️⃣ Models (LLMs & Chat Models)
 - Interfaces for interacting with LLMs (GPT, DeepSeek, Claude, etc.).
 - Supports Chat Models for structured conversations.
+
 2️⃣ Prompts 🎭
 - Helps structure inputs for better AI responses.
 - Includes prompt templates & dynamic variable injection.
+
 3️⃣ Memory 🧠
 - Allows AI to remember past interactions.
 - Supports short-term & long-term memory for chatbots.
+
 4️⃣ Indexes 📂
 - Stores & retrieves large text data efficiently.
 - Used for vector search (FAISS, ChromaDB, Pinecone, etc.).
+
 - Output Parser:
 - Output parser is responsible for taking the output of a model and transforming it to a more suitable format for downstream tasks. Useful when you are using LLMs to generate structured data, or to normalize output from chat models and LLMs.
 
 - LangChain has lots of different types of output parsers. This is a list of output parsers LangChain supports.
+
 5️⃣ Chains 🔗
 - Connects multiple components (LLMs, Memory, Prompts) in a workflow.
 - Supports sequential & agent-based chaining.
+
 6️⃣ Agents 🤖
 - Uses LLMs to make decisions dynamically.
 - Can interact with APIs, databases, & tools (e.g., Google Search).
+
 7️⃣ Tools 🛠️
 - Extends AI’s functionality (e.g., search engines, code execution, APIs).
 - Includes Python REPL, WolframAlpha, SERP API, etc.
+
 8️⃣ Callbacks 📡
 - Monitors and logs AI interactions in real-time.
 - Useful for debugging & tracking responses.
+
 9️⃣ Runnable & Executors ⚡
 - Optimizes & parallelizes workflows for faster execution.
 - Helps in batch processing and streaming responses.
+
 🔹 Summary
 LangChain provides a modular framework for building AI-powered applications like chatbots, RAG systems, and intelligent assistants. 🚀
 
@@ -97,3 +108,4 @@ RETRIEVERS
 What is a Document in LangChain?
 A Document in LangChain is essentially a text + metadata object. It helps preserve both the content and context of data for use in applications like RAG (Retrieval-Augmented Generation), chatbots, or semantic search.
 LangChain’s Document is more than just a string — it’s a structured representation of knowledge with context, which is vital for accurate retrieval, traceability, and filtering in modern AI applications.
+
