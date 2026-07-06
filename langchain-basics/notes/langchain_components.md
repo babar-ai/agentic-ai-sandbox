@@ -1,12 +1,15 @@
 ### Langchain components:🚀
 
 Here are the key components of LangChain:
+
 1️⃣ Models (LLMs & Chat Models)
 - Interfaces for interacting with LLMs (GPT, DeepSeek, Claude, etc.).
 - Supports Chat Models for structured conversations.
+  
 2️⃣ Prompts 🎭
 - Helps structure inputs for better AI responses.
 - Includes prompt templates & dynamic variable injection.
+  
 3️⃣ Memory 🧠
 - Allows AI to remember past interactions.
 - Supports short-term & long-term memory for chatbots.
